@@ -1,0 +1,30 @@
+--------------------Configuration: Flight - Win32 Debug--------------------
+Begining build with project "D:\CAS\cscie141\Flight\Flight.dsp", at root.
+Active configuration is Win32 (x86) Application (based on Win32 (x86) Application)
+
+Project's tools are:
+			"32-bit C/C++ Compiler for 80x86" with flags "/nologo /MDd /W3 /Gm /GX /Zi /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /FR"Debug/" /Fp"Debug/Flight.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /c "
+			"OLE Type Library Maker" with flags "/nologo /D "_DEBUG" /mktyplib203 /o NUL /win32 "
+			"Win32 Resource Compiler" with flags "/l 0x2c0a /fo"Debug/Flight.res" /d "_DEBUG" /d "_AFXDLL" "
+			"Browser Database Maker" with flags "/nologo /o"Debug/Flight.bsc" "
+			"COFF Linker for 80x86" with flags "/nologo /subsystem:windows /incremental:yes /pdb:"Debug/Flight.pdb" /debug /machine:I386 /out:"Debug/Flight.exe" /pdbtype:sept "
+			"Custom Build" with flags ""
+			"<Component 0xa>" with flags ""
+
+Creating command line "rc.exe /l 0x2c0a /fo"Debug/Flight.res" /d "_DEBUG" /d "_AFXDLL" "D:\CAS\cscie141\Flight\Flight.rc"" 
+Creating temp file "C:\TEMP\RSP52.tmp" with contents </nologo /subsystem:windows /incremental:yes /pdb:"Debug/Flight.pdb" /debug /machine:I386 /out:"Debug/Flight.exe" /pdbtype:sept 
+.\Debug\City.obj
+.\Debug\Flight.obj
+.\Debug\FlightDoc.obj
+.\Debug\FlightView.obj
+.\Debug\MainFrm.obj
+.\Debug\MapView.obj
+.\Debug\StdAfx.obj
+.\Debug\Flight.res>
+Creating command line "link.exe @C:\TEMP\RSP52.tmp" 
+Compiling resources...
+Linking...
+
+
+
+Flight.exe - 0 error(s), 0 warning(s)

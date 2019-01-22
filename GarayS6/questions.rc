@@ -1,0 +1,299 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_QUES_PAGEA DIALOG DISCARDABLE  0, 0, 182, 196
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Page A"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "Text Question 1",IDC_TEXT_QUES1,7,21,173,9
+    CONTROL         "",IDC_ANSWER1,"Button",BS_AUTORADIOBUTTON | WS_GROUP,25,
+                    55,15,8
+    CONTROL         "",IDC_ANSWER2,"Button",BS_AUTORADIOBUTTON,25,72,15,10
+    CONTROL         "",IDC_ANSWER3,"Button",BS_AUTORADIOBUTTON,25,89,15,10
+    CONTROL         "",IDC_ANSWER4,"Button",BS_AUTORADIOBUTTON,25,106,15,10
+    CONTROL         "",IDC_ANSWER5,"Button",BS_AUTORADIOBUTTON,25,123,15,10
+    LTEXT           "Text Answer 1",IDC_TEXT_ANSWER1,45,55,130,8
+    LTEXT           "Text Answer 2",IDC_TEXT_ANSWER2,45,72,130,8
+    LTEXT           "Text Answer 4",IDC_TEXT_ANSWER4,45,106,130,8
+    LTEXT           "Text Answer 3",IDC_TEXT_ANSWER3,45,89,130,8
+    LTEXT           "Text Answer 5",IDC_TEXT_ANSWER5,45,123,130,8
+END
+
+IDD_QUES_PAGEB DIALOG DISCARDABLE  0, 0, 187, 196
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Page B"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "Text Question 2",IDC_TEXTQUES2,10,25,145,8
+    LISTBOX         IDC_PAGEBLIST,15,45,105,85,LBS_OWNERDRAWFIXED | 
+                    LBS_HASSTRINGS | LBS_NOINTEGRALHEIGHT | WS_VSCROLL | 
+                    WS_TABSTOP
+END
+
+IDD_QUES_PAGEC DIALOG DISCARDABLE  0, 0, 187, 196
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Page C"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "Text Question 3",IDC_TEXT_QUES3,5,140,180,10
+    EDITTEXT        IDC_ANSWER,5,155,180,15,ES_AUTOHSCROLL
+    CONTROL         130,IDC_STATIC,"Static",SS_BITMAP,0,10,187,112
+END
+
+IDD_QUES_PAGED DIALOG DISCARDABLE  0, 0, 187, 197
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Page D"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "Text Question 4",IDC_TEXT_QUES4,10,25,150,15
+    EDITTEXT        IDC_NUMBER,10,55,35,15,ES_AUTOHSCROLL
+    CONTROL         "Spin1",IDC_SPIN,"msctls_updown32",UDS_SETBUDDYINT | 
+                    UDS_AUTOBUDDY | UDS_ARROWKEYS | UDS_HORZ,50,55,40,15
+END
+
+IDD_QUES_PAGEZ DIALOG DISCARDABLE  0, 0, 187, 196
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Final Page"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "Text Question 1",IDC_TEXTQUES1,11,9,155,8
+    GROUPBOX        "Question 1",IDC_STATIC,5,0,170,33
+    EDITTEXT        IDC_ANSWER1,11,18,24,11,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "Text Question 2",IDC_TEXTQUES2,11,43,155,8
+    GROUPBOX        "Question 2",IDC_STATIC,5,34,170,33
+    EDITTEXT        IDC_ANSWER2,11,52,24,11,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "Text Question 3",IDC_TEXTQUES3,11,78,155,8
+    GROUPBOX        "Question 3",IDC_STATIC,5,69,170,33
+    EDITTEXT        IDC_ANSWER3,11,87,24,11,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "Text Question 4",IDC_TEXTQUES4,12,113,155,8
+    GROUPBOX        "Question 4",IDC_STATIC,6,104,169,33
+    EDITTEXT        IDC_ANSWER4,12,122,158,11,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "Text Question 5",IDC_TEXTQUES5,11,147,155,8
+    GROUPBOX        "Question 5",IDC_STATIC,5,138,170,33
+    EDITTEXT        IDC_ANSWER5,11,156,159,11,ES_AUTOHSCROLL | ES_READONLY
+    PUSHBUTTON      "Save Answers  As...",IDC_SAVEAS,6,175,73,14
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_QUES_PAGEA, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 175
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 189
+    END
+
+    IDD_QUES_PAGEB, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 180
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 189
+    END
+
+    IDD_QUES_PAGEC, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 180
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 189
+    END
+
+    IDD_QUES_PAGED, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 180
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 190
+    END
+
+    IDD_QUES_PAGEZ, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 180
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 189
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Spanish (Modern) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ESN)
+#ifdef _WIN32
+LANGUAGE LANG_SPANISH, SUBLANG_SPANISH_MODERN
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "0C0A04B0"
+        BEGIN
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "Aplicación MFC questions\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "questions\0"
+            VALUE "LegalCopyright", "Copyright (C) 1900\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "questions.EXE\0"
+            VALUE "ProductName", "Aplicación questions\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0xc0a, 1200
+    END
+END
+
+#endif    // !_MAC
+
+#endif    // Spanish (Modern) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Spanish (Castilian) (unknown sub-lang: 0xB) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ESS)
+#ifdef _WIN32
+LANGUAGE LANG_SPANISH, 0xB
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ESP)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 10, 3\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif\r\n"
+    "#include ""res\\questions.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.esp\\afxres.rc""          // Standard components\r\n"
+    "#endif\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\questions.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BITMAP1             BITMAP  DISCARDABLE     "res\\bitmap1.bmp"
+#endif    // Spanish (Castilian) (unknown sub-lang: 0xB) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ESP)
+#ifdef _WIN32
+LANGUAGE 10, 3
+#pragma code_page(1252)
+#endif
+#include "res\questions.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.esp\afxres.rc"          // Standard components
+#endif
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

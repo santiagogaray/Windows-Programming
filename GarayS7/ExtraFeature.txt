@@ -1,0 +1,8 @@
+Radius setting:
+When trying to set radius bigger than maximum possible
+it's automatically setted to maximum possible. New radius is
+displayed in status bar and edit control.
+Location setting:
+When trying to locate the circle partly outside the window its 
+location is changed to the maximum possible location and 
+coordinates are displayed in status bar.

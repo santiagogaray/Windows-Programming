@@ -1,0 +1,56 @@
+--------------------Configuration: questions - Win32 Debug--------------------
+Begining build with project "D:\CAS\cscie141\questions\questions.dsp", at root.
+Active configuration is Win32 (x86) Application (based on Win32 (x86) Application)
+
+Project's tools are:
+			"32-bit C/C++ Compiler for 80x86" with flags "/nologo /MDd /W3 /Gm /GX /Zi /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /Fp"Debug/questions.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /c "
+			"OLE Type Library Maker" with flags "/nologo /D "_DEBUG" /mktyplib203 /o NUL /win32 "
+			"Win32 Resource Compiler" with flags "/l 0x2c0a /fo"Debug/questions.res" /d "_DEBUG" /d "_AFXDLL" "
+			"Browser Database Maker" with flags "/nologo /o"Debug/questions.bsc" "
+			"COFF Linker for 80x86" with flags "/nologo /subsystem:windows /incremental:yes /pdb:"Debug/questions.pdb" /debug /machine:I386 /out:"Debug/questions.exe" /pdbtype:sept "
+			"Custom Build" with flags ""
+			"<Component 0xa>" with flags ""
+
+Creating command line "rc.exe /l 0x2c0a /fo"Debug/questions.res" /d "_DEBUG" /d "_AFXDLL" "D:\CAS\cscie141\questions\questions.rc"" 
+Creating temp file "C:\TEMP\RSP193.tmp" with contents </nologo /MDd /W3 /Gm /GX /Zi /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /Fp"Debug/questions.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /c 
+"D:\CAS\cscie141\questions\QuesPageA.cpp"
+"D:\CAS\cscie141\questions\QuesPageB.cpp"
+"D:\CAS\cscie141\questions\QuesPageC.cpp"
+"D:\CAS\cscie141\questions\QuesPageD.cpp"
+"D:\CAS\cscie141\questions\QuesPageZ.cpp"
+"D:\CAS\cscie141\questions\questions.cpp"
+"D:\CAS\cscie141\questions\QuestionsPsh.cpp"
+>
+Creating command line "cl.exe @C:\TEMP\RSP193.tmp" 
+Creating temp file "C:\TEMP\RSP194.tmp" with contents </nologo /MDd /W3 /Gm /GX /Zi /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /Fp"Debug/questions.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /c 
+"D:\CAS\cscie141\questions\StdAfx.cpp"
+>
+Creating command line "cl.exe @C:\TEMP\RSP194.tmp" 
+Creating temp file "C:\TEMP\RSP195.tmp" with contents </nologo /subsystem:windows /incremental:yes /pdb:"Debug/questions.pdb" /debug /machine:I386 /out:"Debug/questions.exe" /pdbtype:sept 
+.\Debug\QuesPageA.obj
+.\Debug\QuesPageB.obj
+.\Debug\QuesPageC.obj
+.\Debug\QuesPageD.obj
+.\Debug\QuesPageZ.obj
+.\Debug\questions.obj
+.\Debug\QuestionsPsh.obj
+.\Debug\StdAfx.obj
+.\Debug\questions.res>
+Creating command line "link.exe @C:\TEMP\RSP195.tmp" 
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+QuesPageA.cpp
+QuesPageB.cpp
+QuesPageC.cpp
+QuesPageD.cpp
+QuesPageZ.cpp
+questions.cpp
+QuestionsPsh.cpp
+Generating Code...
+Linking...
+
+
+
+questions.exe - 0 error(s), 0 warning(s)

@@ -1,0 +1,5 @@
+The features are simple and intuitive.
+You can set either the object's properties 
+or the scene properties if no object is selected.
+There is also a shape.txt sample drawing.
+
