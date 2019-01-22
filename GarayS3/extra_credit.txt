@@ -1,0 +1,8 @@
+I included an extra feature that enables the user to select 
+combo ingredients in the pizza.
+So the color/taste system works near the same than
+in general pizza tastes but in addition, when two different
+tastes types are selected (e.g. lobster and peppers)
+the color is composed by the mix of the different rgb channels.
+You can easely switch bettween "Pizza tastes" and "Combo tastes"
+and use the system you prefer.

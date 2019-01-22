@@ -1,0 +1,38 @@
+--------------------Configuration: BlackJack - Win32 Debug--------------------
+Begining build with project "D:\CAS\cscie141\Blackjack\BlackJack.dsp", at root.
+Active configuration is Win32 (x86) Application (based on Win32 (x86) Application)
+
+Project's tools are:
+			"32-bit C/C++ Compiler for 80x86" with flags "/nologo /MDd /W3 /Gm /GX /Zi /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /Fp"Debug/BlackJack.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /c "
+			"OLE Type Library Maker" with flags "/nologo /D "_DEBUG" /mktyplib203 /o NUL /win32 "
+			"Win32 Resource Compiler" with flags "/l 0x2c0a /fo"Debug/BlackJack.res" /d "_DEBUG" /d "_AFXDLL" "
+			"Browser Database Maker" with flags "/nologo /o"Debug/BlackJack.bsc" "
+			"COFF Linker for 80x86" with flags "/nologo /subsystem:windows /incremental:yes /pdb:"Debug/BlackJack.pdb" /debug /machine:I386 /out:"Debug/BlackJack.exe" /pdbtype:sept "
+			"Custom Build" with flags ""
+			"<Component 0xa>" with flags ""
+
+Creating command line "rc.exe /l 0x2c0a /fo"Debug/BlackJack.res" /d "_DEBUG" /d "_AFXDLL" "D:\CAS\cscie141\Blackjack\BlackJack.rc"" 
+Creating temp file "C:\TEMP\RSP23.tmp" with contents </nologo /MDd /W3 /Gm /GX /Zi /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /Fp"Debug/BlackJack.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /c 
+"D:\CAS\cscie141\Blackjack\BlackJack.cpp"
+"D:\CAS\cscie141\Blackjack\BlackJackDlg.cpp"
+"D:\CAS\cscie141\Blackjack\Rectangles.cpp"
+>
+Creating command line "cl.exe @C:\TEMP\RSP23.tmp" 
+Creating temp file "C:\TEMP\RSP24.tmp" with contents </nologo /MDd /W3 /Gm /GX /Zi /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /Fp"Debug/BlackJack.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /c 
+"D:\CAS\cscie141\Blackjack\StdAfx.cpp"
+>
+Creating command line "cl.exe @C:\TEMP\RSP24.tmp" 
+Creating command line "link.exe /nologo /subsystem:windows /incremental:yes /pdb:"Debug/BlackJack.pdb" /debug /machine:I386 /out:"Debug/BlackJack.exe" /pdbtype:sept  .\Debug\BlackJack.obj .\Debug\BlackJackDlg.obj .\Debug\Rectangles.obj .\Debug\StdAfx.obj .\Debug\BlackJack.res" 
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+BlackJack.cpp
+BlackJackDlg.cpp
+Rectangles.cpp
+Generating Code...
+Linking...
+
+
+
+BlackJack.exe - 0 error(s), 0 warning(s)

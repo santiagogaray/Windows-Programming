@@ -1,0 +1,241 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Spanish (Modern) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ESN)
+#ifdef _WIN32
+LANGUAGE LANG_SPANISH, SUBLANG_SPANISH_MODERN
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 217, 55
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Acerca de BlackJack"
+FONT 8, "MS Sans Serif"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "BlackJack Versión 1.0",IDC_STATIC,40,10,119,8,
+                    SS_NOPREFIX
+    LTEXT           "Copyright (C) 1900",IDC_STATIC,40,25,119,8
+    DEFPUSHBUTTON   "Aceptar",IDOK,178,7,32,14,WS_GROUP
+END
+
+IDD_BLACKJACK_DIALOG DIALOGEX 0, 0, 270, 120
+STYLE DS_MODALFRAME | WS_MINIMIZEBOX | WS_MAXIMIZEBOX | WS_POPUP | 
+    WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "Black Jack"
+FONT 12, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "Done",IDOK,216,99,48,12
+    LTEXT           "Pts",IDC_STATIC,14,19,13,8
+    EDITTEXT        IDC_POINTS,60,18,27,12,ES_AUTOHSCROLL | ES_READONLY
+    PUSHBUTTON      "Start",IDC_START,216,6,48,12
+    CONTROL         "",IDC_RECTANGLES,"Static",SS_WHITERECT | SS_SUNKEN | 
+                    WS_BORDER,60,36,27,76
+    EDITTEXT        IDC_WINS,114,18,30,12,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "Wins:",IDC_STATIC,115,6,18,8
+    EDITTEXT        IDC_LOSSES,168,18,30,12,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "Losses:",IDC_STATIC,168,6,25,8
+    LTEXT           "",IDC_COMPUTER,108,54,96,12,SS_SUNKEN | WS_BORDER
+    LTEXT           "Message:",IDC_STATIC,109,44,30,9
+    PUSHBUTTON      "HIT ME",IDC_HITME,108,81,48,30,WS_DISABLED
+    PUSHBUTTON      "STAND",IDC_STAND,156,81,48,30,WS_DISABLED
+    CONTROL         "",IDC_RECTANGLES2,"Static",SS_WHITERECT | SS_SUNKEN | 
+                    WS_BORDER,27,36,27,76
+    EDITTEXT        IDC_POINTS2,27,18,27,12,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "21-",IDC_STATIC,15,99,11,8
+    LTEXT           "10-",IDC_STATIC,15,64,11,8
+    LTEXT           " 0-",IDC_STATIC,15,33,9,8
+    LTEXT           "Computer",IDC_STATIC,24,6,32,8
+    LTEXT           "You",IDC_STATIC,66,6,14,8
+    CONTROL         "",IDC_STATIC,"Static",SS_GRAYFRAME,9,3,84,114
+    CONTROL         "",IDC_STATIC,"Static",SS_GRAYFRAME,108,3,96,30
+    LTEXT           " -",IDC_STATIC,54,99,5,8
+    LTEXT           " -",IDC_STATIC,54,64,5,8
+    LTEXT           " -",IDC_STATIC,54,33,5,8
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "0C0A04B0"
+        BEGIN
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "Aplicación MFC BlackJack\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "BlackJack\0"
+            VALUE "LegalCopyright", "Copyright (C) 1900\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "BlackJack.EXE\0"
+            VALUE "ProductName", "Aplicación BlackJack\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0xc0a, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 210
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+
+    IDD_BLACKJACK_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 263
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 113
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_ABOUTBOX            "Acerca de BlackJack"
+END
+
+#endif    // Spanish (Modern) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Spanish (Castilian) (unknown sub-lang: 0xB) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ESS)
+#ifdef _WIN32
+LANGUAGE LANG_SPANISH, 0xB
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ESP)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 10, 3\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif\r\n"
+    "#include ""res\\BlackJack.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.esp\\afxres.rc""          // Standard components\r\n"
+    "#endif\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\BlackJack.ico"
+#endif    // Spanish (Castilian) (unknown sub-lang: 0xB) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ESP)
+#ifdef _WIN32
+LANGUAGE 10, 3
+#pragma code_page(1252)
+#endif
+#include "res\BlackJack.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.esp\afxres.rc"          // Standard components
+#endif
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

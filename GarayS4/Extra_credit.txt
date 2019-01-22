@@ -1,0 +1,8 @@
+The "Computer" button was included in the game.
+When this button is pressed the computer detects
+which figure is to brawn next (circle or cross) and
+"thinks" for a reasonable location to place it.
+So, as you can press it at any time, you can:
+-1. Play against the computer.
+-2. Make the computer make a desicion for you.
+-3. Make the computer play against itself.

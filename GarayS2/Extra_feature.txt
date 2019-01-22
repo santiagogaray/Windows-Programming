@@ -1,0 +1,6 @@
+For this proyect, to improve in some way its functionality,
+I have implemented a separate function ChkHorScroll() 
+so as to be called not only during the loading of the .txt file
+but also during each update of the presidents' names.
+In that way we assure that we can always completely see every
+modified name no matter its size.
